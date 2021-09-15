@@ -1,6 +1,5 @@
 *** Settings ***
-Library                 QWeb
-Library                 QVision
+
 Suite Setup             OpenBrowser  about:blank  chrome
 Suite Teardown          close browser
 
