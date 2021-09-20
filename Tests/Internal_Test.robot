@@ -31,5 +31,6 @@ Enter Role Users
     VerifyText  Privacy
     ClickText  Log In to Sandbox
     Sleep       3s
-    ClickElement  //span[1]/div[2]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]
+    #ClickElement  //span[1]/div[2]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]
+    ClickText  Setup
     ClickText  Setup for current app
