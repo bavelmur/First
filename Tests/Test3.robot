@@ -58,4 +58,5 @@ Enter Role Users
     VerifyText  SOFTWARE
     VerifyText  CSPP
     LogScreenshot  annotated
-
+    ClickText  xpath\=//div[3]/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/div[1]/div/div[2]/div[3]/div/div/div/div[1]/div/div[2]/div[1]
+    ClickText   Explore
