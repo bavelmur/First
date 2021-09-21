@@ -13,12 +13,15 @@ version: 0.0.1
 #  qweb     -- for web library
 #  qmobile  -- for mobile application library
 #  qvision  -- for computer vision library
+
 lib: qweb
 lib: qvision
 lib: DataDriver
+
 # Specify the URL to your test suite in Qentinel Pace
 # https://pace.qentinel.com/robots/{PROJECT_ID}/r/{ROBOT_ID}/suite/{SUITE_ID}
 #
 # For example:
 # url: https://pace.qentinel.com/robots/123/r/456/suite/789
+
 url: https://pace.qentinel.com/robots/11659/r/14226/suite/12973

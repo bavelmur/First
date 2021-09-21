@@ -1,11 +1,12 @@
 *** Settings ***
-
+Library                 QWeb
+Library                 QVision
 Suite Setup             OpenBrowser  about:blank  chrome
 Suite Teardown          close browser
 
 
 # Copy/paste the line below into Terminal to execute:
-# robot -d results tests/AllUserLogin_Self.robot
+# robot -d results tests/Test3.robot
 
 *** Test Cases ***     
 Veify all Role user Sign on   
@@ -39,9 +40,9 @@ Enter Role Users
     Sleep       2s
     TypeText  Search Contacts and more  ${roleuser}
     Sleep       2s
-    ClickElement    //div[1]/div[2]/div/div/div/div[2]/div[2]/div[1]/div/div/table/tbody/tr[1]/th/span/a
+    ClickElement  xpath\=//div[1]/div[2]/div/div/div/div[2]/div[2]/div[1]/div/div/table/tbody/tr[1]/th/span/a
     Sleep       6s
-    ClickElement    //div[1]/div[1]/div[3]/div/runtime_platform_actions-actions-ribbon/ul/li[4]/lightning-button-menu/button/lightning-primitive-icon
+    ClickElement  xpath\=//div[1]/div[1]/div[3]/div/runtime_platform_actions-actions-ribbon/ul/li[4]/lightning-button-menu/button/lightning-primitive-icon
     Sleep       6s
     ClickText   Log in to Experience as User
     #ClickElement  xpath\=//span[normalize-space()='Log in to Experience as User']
