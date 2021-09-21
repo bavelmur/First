@@ -1,8 +1,8 @@
-#pace file
+
 
 name:   PaceEditor / Qentinel Pace configuration
 description:   Configuration for Qentinel Pace integration
 version:   0.0.1
 lib:     qweb
 lib:     qvision
-url:     https://pace.qentinel.com/robots/11659/r/14226/suite/12973
+url:     https://pace.qentinel.com/robots/11659/r/14226/suite/
