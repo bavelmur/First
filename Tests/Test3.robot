@@ -39,9 +39,9 @@ Enter Role Users
     Sleep       2s
     TypeText  Search Contacts and more  ${roleuser}
     Sleep       2s
-    ClickElement  xpath\=//div[1]/div[2]/div/div/div/div[2]/div[2]/div[1]/div/div/table/tbody/tr[1]/th/span/a
+    ClickElement    //div[1]/div[2]/div/div/div/div[2]/div[2]/div[1]/div/div/table/tbody/tr[1]/th/span/a
     Sleep       6s
-    ClickElement  xpath\=//div[1]/div[1]/div[3]/div/runtime_platform_actions-actions-ribbon/ul/li[4]/lightning-button-menu/button/lightning-primitive-icon
+    ClickElement    //div[1]/div[1]/div[3]/div/runtime_platform_actions-actions-ribbon/ul/li[4]/lightning-button-menu/button/lightning-primitive-icon
     Sleep       6s
     ClickText   Log in to Experience as User
     #ClickElement  xpath\=//span[normalize-space()='Log in to Experience as User']
