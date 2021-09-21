@@ -1,0 +1,3 @@
+pip install robotframework-seleniumlibrary
+pip install robotframework-excellibrary
+pip install snowflake-connector-python
