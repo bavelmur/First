@@ -51,8 +51,8 @@ Enter Role Users
     #ClickElement   xpath\=//a[normalize-space()='Channel Partner']
     Sleep       12s
     VerifyText  Summary
-    VerifyText  Total Bookings (By Type)
     Set Library Search Order  QVision
+    VerifyText  Total Bookings (By Type)
     VerifyText  HARDWARE
     VerifyText  SERVICE
     VerifyText  SOFTWARE
