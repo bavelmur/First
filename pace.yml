@@ -5,4 +5,5 @@ description:   Configuration for Qentinel Pace integration
 version:   0.0.1
 lib:     qweb
 lib:     qvision
+lib:     DataDriver
 url:     https://pace.qentinel.com/robots/11659/r/14226/12973

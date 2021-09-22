@@ -1,7 +1,7 @@
 *** Settings ***
 Library                 QWeb
 Library                 QVision
-Library                 DataDriver  ../TestData/TestData.xlsx
+#Library                 DataDriver  ../TestData/TestData.xlsx
 Suite Setup             OpenBrowser  about:blank  chrome
 Suite Teardown          close browser
 
