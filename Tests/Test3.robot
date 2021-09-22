@@ -16,12 +16,13 @@ Veify all Role user Sign on
 *** Variables ***
 ${roleuser}  Joseph Abraham\n
 ${password}
-
+${roles}
 *** Keywords ***
 Enter Role Users
     GoTo  https://test.salesforce.com
     Set Library Search Order  QWeb
     Sleep       3s
+    Log To Console  ${roles}
     TypeText  username  automationtestuser@cisco.com.pxp.qa
     TypeText  password  ${password}
     Sleep       3s
